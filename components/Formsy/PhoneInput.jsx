@@ -151,7 +151,7 @@ class PhoneInput extends Component {
             max={maxValue}
           />
           <Dropdown handleKeyboardNavigation pointerShadow>
-            <div className="dropdown-menu-header flex center middle">{this.state.currentCountry ? this.state.currentCountry.alpha3 : ''}
+            <div className="dropdown-menu-header flex center middle">{this.state.currentCountry && this.state.currentCountry.alpha3 ? this.state.currentCountry.alpha3 : 'Country code'}
               <IconDown width={20} height={12} fill="#fff" wrapperClass="arrow" /></div>
             <ul className="dropdown-menu-list">
               {

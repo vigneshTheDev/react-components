@@ -12,14 +12,14 @@ class WelcomeScreen extends React.Component {
   reRender() {
     this.setState({update: true})
   }
-  
+
   render() {
     const {vm} = this.props
     return (
       <div className="WelcomeScreen flex column middle center">
         <div className="container flex column middle center">
           <div className="title">Welcome to Topcoder</div>
-          <div className="sub-title">The world’s biggest crowdsourcing platform</div>
+          <div className="sub-title">The world’s largest crowdsourcing platform</div>
           <div className="content">
           Hello, <b>{vm.userHandle}</b>
           <br />
