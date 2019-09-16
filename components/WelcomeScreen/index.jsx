@@ -24,9 +24,10 @@ class WelcomeScreen extends React.Component {
           Hello, <b>{vm.userHandle}</b>
           <br />
           <br />
-          Your Topcoder account was successfully created. On the next screen let’s figure out which solution best fits your needs.
+          Your Topcoder account was successfully created. On the catalog let’s figure out which solution best fits your needs.
           </div>
-          <a href={vm.newProjectUrl} type="button" className="next-btn tc-btn tc-btn-sm tc-btn-primary flex middle center">Select your solution</a>
+          <a href={vm.newProjectUrl} type="button" className="next-btn tc-btn tc-btn-sm tc-btn-primary flex middle center">Review Catalog</a>
+          <a href={vm.connectDashboardUrl} type="button" className="next-btn tc-btn tc-btn-sm tc-btn-primary flex middle center">Go to Dashboard</a>
         </div>
       </div>
     )

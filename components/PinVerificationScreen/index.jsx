@@ -165,7 +165,7 @@ class PinVerificationScreen extends React.Component {
                     required
                   />
                 </div>
-                <div className="tc-label">PIN is case-sensitive</div>
+                <div className="pin-case-sensitive-message">* PIN is case-sensitive</div>
                 <div className="bottom-button flex middle center">
                   <button onClick={this.sendNewPinClicked} className="tc-btn tc-btn-sm tc-btn-default flex middle center" >Send a new PIN</button>
                   <button type="submit" className="verify-pin-btn tc-btn tc-btn-sm tc-btn-primary flex middle center" disabled={!this.state.canSubmitPin}>Verify PIN</button>
